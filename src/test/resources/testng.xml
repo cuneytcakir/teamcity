@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="TestNgMavenExampleSuite" parallel="false">
   <test name="TestNgMavenTest">
-    <classes>
-      <class name="com.iddaa.api.test.LoginTest.Login"/>
-      <class name="com.iddaa.api.test.LoginTest.CompareTwoResponse"/>
-    </classes>
+      <packages>
+          <package name="com.iddaa.api.test.LoginTest" />
+      </packages>
   </test>
 </suite>
